@@ -39,7 +39,7 @@ class preprocess:
     ) -> None:
 
         # 데이터 폴더 path로 지정
-        path = "/content/drive/MyDrive/Colab Notebooks/4-1/Capstone/147.속성기반 감정분석 데이터/01-1.정식개방데이터/Training/"
+        path = "/content/drive/MyDrive/Colab Notebooks/4-1/Capstone/147.속성기반 감정분석 데이터/01-1.정식개방데이터/Training/02.라벨링데이터"
 
         # 기존 코드 그대로 사용
         folders = [x for x in os.listdir(path) if os.path.isdir(os.path.join(path,x))]
