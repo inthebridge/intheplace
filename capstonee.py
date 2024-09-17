@@ -38,11 +38,11 @@ class preprocess:
         category:str
     ) -> None:
 
-        # 본인의 데이터 폴더 경로로 변경
+        # 데이터 폴더 path로 지정
         path = "/content/drive/MyDrive/Colab Notebooks/4-1/Capstone/147.속성기반 감정분석 데이터/01-1.정식개방데이터/Training/"
 
         # 기존 코드 그대로 사용
-        folders = [x for x in os.listdir("/content/drive/MyDrive/Colab Notebooks/4-1/Capstone/147.속성기반 감정분석 데이터/01-1.정식개방데이터/Training/") if os.path.isdir(os.path.join(path,x))]
+        folders = [x for x in os.listdir(path) if os.path.isdir(os.path.join(path,x))]
 
         if category in folders:
             self.path = os.path.join(path,category)
