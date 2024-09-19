@@ -172,6 +172,6 @@ class preprocess:
         print(f'#                   {self.product}               ')
         print('# ======================================')
         print('#                   언급횟수          ')
-        prnt(self.result)
+        print(self.result)
         print('# ================= 상위 N ==============')
         print(self.recommend_key)
