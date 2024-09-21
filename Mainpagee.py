@@ -12,7 +12,7 @@ import os
 import streamlit as st
 from openai import OpenAI
 from dotenv import load_dotenv
-from capstone import preprocess
+from capstonee import preprocess
 
 path = "/content/drive/MyDrive/Colab Notebooks/4-1/Capstone/147.속성기반 감정분석 데이터/01-1.정식개방데이터/Training/02.라벨링데이터"
 
